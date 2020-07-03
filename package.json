@@ -8,6 +8,7 @@
     "gatsby": "^2.23.7",
     "gatsby-cli": "^2.12.58",
     "gatsby-theme-catalyst-helium": "^0.4.6",
+    "netlify-plugin-gatsby-cache": "^0.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -21,7 +22,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "clean": "gatsby clean",
     "format": "prettier --write src/**/*.{js,jsx}",
