@@ -1,10 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Helium`,
-    description: `Speed up your Gatsby development workflow.`,
-    keywords: [`gatsby`, `theme`, `react`, `blog`],
-    author: `Eric Howey`,
-    siteUrl: `https://gatsby-starter-catalyst-helium.netlify.app`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
+    title: `Nick Lewis`,
+    description: `Frontend web developer, designer, writer and photographer, based in Farnborough, Hampshire. Specializing in Javascript, React, and Gatsby. Say hello and let's build something amazing together!`,
+    keywords: [
+      `web developer`,
+      `Photographer`,
+      `web design`,
+      `Farnborough`,
+      `Gatsby`,
+      `websites`,
+      `react`,
+      `javascript`,
+      `front end`,
+      `frontend`,
+      `frontend web developer`,
+      `GatsbyJS`,
+      `Sanity`,
+      `Sanity.io`,
+    ],
+    author: `Nick Lewis`,
+    siteUrl: `https://nicklewis.photo`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
     menuLinks: [
       {
         name: `About`,
@@ -12,14 +27,29 @@ module.exports = {
         type: `internal`, //internal or anchor
       },
       {
-        name: `Work`,
-        link: `/work`,
+        name: `Blog`,
+        link: `/blog`,
         type: `internal`, //internal or anchor
+      },
+      // {
+      //   name: `Galleries`,
+      //   link: `/galleries`,
+      //   type: `internal`, //internal or anchor
+      // },
+      // {
+      //   name: `Me`,
+      //   link: `#me`,
+      //   type: `anchor`,
+      // },
+      {
+        name: `Work`,
+        link: `#work`,
+        type: `anchor`,
       },
       {
         name: `Contact`,
-        link: `/contact`,
-        type: `internal`, //internal or anchor
+        link: `#contact`,
+        type: `anchor`,
       },
     ],
     socialLinks: [
@@ -29,13 +59,13 @@ module.exports = {
         location: `footer`, //Options are "all", "header", "footer"
       },
       {
-        name: `Github`,
-        link: `https://www.github.com/ehowey`,
+        name: `Instagram`,
+        link: `https://instagram.com/nicklewisphotography`,
         location: `all`, //Options are "all", "header", "footer"
       },
       {
         name: `Twitter`,
-        link: `https://www.twitter.com/erchwy`,
+        link: `https://www.twitter.com/nicklewis`,
         location: `all`, //Options are "all", "header", "footer"
       },
     ],
@@ -53,6 +83,7 @@ module.exports = {
         excerptLength: 200,
         // Helium
         useHero: true,
+        assetPath: `content/site-assets`,
       },
     },
     {

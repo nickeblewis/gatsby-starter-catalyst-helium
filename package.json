@@ -6,6 +6,7 @@
   "author": "Eric Howey <eric@erichowey.dev>",
   "dependencies": {
     "gatsby": "^2.23.7",
+    "gatsby-cli": "^2.12.58",
     "gatsby-theme-catalyst-helium": "^0.4.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

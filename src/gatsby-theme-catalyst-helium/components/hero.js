@@ -8,7 +8,7 @@ import Img from "gatsby-image"
 const Hero = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(relativePath: { eq: "avatar.jpg" }) {
+      avatar: file(relativePath: { eq: "nick.png" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid_withWebp
@@ -71,8 +71,7 @@ const Hero = () => {
               color: baseColors.gray[8],
             }}
           >
-            Hello there! My name is <b>Charlie Rose</b> and I am a web
-            developer, excellent human being, and <b>bold</b> writer.
+            Freelance <b>Web</b> &amp; <b>Photography</b>
           </Styled.p>
           <Button
             as={Link}
@@ -92,7 +91,7 @@ const Hero = () => {
               },
             }}
           >
-            Hire Me
+            Contact Me
           </Button>
         </div>
       </div>
