@@ -1,0 +1,34 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subTitle
+  label: subTitle
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: draft
+  label: draft
+- type: text
+  name: author
+  label: author
+- type: text
+  name: authorLink
+  label: authorLink
+- type: list
+  name: categories
+  label: categories
+- type: file
+  name: featuredImage
+  label: featuredImage
+- type: file
+  name: socialImage
+  label: socialImage
+- type: text
+  name: featuredImageCaption
+  label: featuredImageCaption
