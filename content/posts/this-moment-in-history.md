@@ -12,3 +12,6 @@ socialImage: "/assets/5696a890-d6e0-4762-8b7f-814bb801073e-1.jpeg"
 featuredImageCaption: The Hub
 
 ---
+# Heading goes here
+
+![](/assets/5696a890-d6e0-4762-8b7f-814bb801073e-1.jpeg)
